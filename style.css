@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+table{
+    background-color: rgb(23, 23, 23);
+    border: 1px rgb(255, 253, 253);
+    border-style: solid;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 7px 2px rgb(26, 26, 26);
+}
+td {
+    background-color: rgb(0, 0, 0);
+    color: rgb(241, 245, 245);
+    cursor: pointer;
+    text-align: center;
+    border: solid rgb(253, 251, 251) 1px;
+    border-radius: 2px;
+    height: 30px;
+    padding: 12px 15px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Orbitron';
+    letter-spacing: 2px;
+}
+
+#display {
+    background-color: rgb(116, 127, 129);
+    box-shadow: 0px 0px 5px 2px rgb(20, 1, 1);
+    cursor: default;
+}
+
+#dummy{
+    background-color: transparent;
+    height: 10px;
+    border: 0px;
+}
